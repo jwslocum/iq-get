@@ -58,3 +58,7 @@ This is a command-line utility and can be used as follows:
     $ iq-get QDS_API_TOKEN 1234567                      # Will write a comma-delimited file with results of query with ID 1234567 to ~/Desktop/full_result_1234567.csv
     $ iq-get QDS_API_TOKEN 1234567 -o my_filename.csv   # Will write a comma-delimited file with results of query with ID 1234567 to ~/Desktop/my_filename.csv
     $ iq-get QDS_API_TOKEN 1234567 -d $'\t'             # Will write a tab-delimited file with results of query with ID 1234567 to ~/Desktop/full_result_1234567.tsv
+    
+Using 'iq-get-unencoded' script
+-----
+iq-get-unencoded functions as iq-get, just without encoding. Can be used to workaround character issues in retrieval. To use iq-get-unencoded, place the script in your working directory and run the Python program by entering: ``python iq-get-unencoded <qubole_api_token> <query_ID>`` 
