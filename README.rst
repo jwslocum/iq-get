@@ -61,6 +61,8 @@ This is a command-line utility and can be used as follows:
     
 Option: Use 'iq-get-unencoded' script
 -----
-'iq-get-unencoded' can be used to workaround character encoding issues that may occur during data retrieval. 
+'iq-get-unencoded' can be used to workaround character encoding issues that may occur during data retrieval.
+
 * 'iq-get-unencoded' functions as 'iq-get', just without the encoding portion of the script. 
 * To use 'iq-get-unencoded', place the script in your working directory and run the Python program by entering: ``python iq-get-unencoded <qubole_api_token> <query_ID>`` 
+::
